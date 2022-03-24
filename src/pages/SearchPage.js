@@ -76,7 +76,7 @@ function SearchPage() {
 
               <span> {item.displayLink}</span>
             </a>
-            <a href="" target="_blank">
+            <a href={item.link} target="_blank">
               <h2>{item.title}</h2>
             </a>
             <div href="" target="_blank">
