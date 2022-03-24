@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+/* flex: 1; */
+}
+
+.search-input{
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px 13px;
+    border-radius: 20px;
+    /* flex: 3; */
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input >input{
+/* width: 100%; */
+outline: none;
+border: none;
+ /* flex: 1; */
+ font-size: large;
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-buttons button{
+    margin-top: 30px;
+}

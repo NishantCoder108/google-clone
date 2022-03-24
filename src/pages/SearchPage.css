@@ -1,0 +1,125 @@
+/* .searchPage{
+    /* padding: 30px; 
+} */
+
+.searchPage-header {
+   display: flex;
+   position: sticky;
+   z-index: 999;
+   flex-wrap: wrap;
+   top: 0;
+   border-bottom: 1px solid gray;
+   /* padding: 20px; */
+   background-color: white;
+    justify-content: flex-start;
+    padding-top: 1rem;
+ /*align-items: center;
+ height: 300px; */
+
+}
+.searchPage-header img{
+    height: 3rem;
+}
+
+.searchPage-image{
+    object-fit: contain;
+    height: 80px;
+}
+.searchPage-headerBody{
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+}
+
+.searchPage-options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 13px;
+flex-wrap: wrap;
+}
+.searchPage-optionLeft{
+    display: flex;
+    align-items: center;
+    gap :15px;
+    padding-top: 3px;
+
+}
+.searchPage-optionRight{
+    display: flex;
+    gap: 12px;
+}
+.searchPage-option{
+    display: flex;
+    /* gap: 12px; */
+    align-items: center;
+    align-content: center;
+    color: gray;
+}
+.searchPage-option a{
+    text-decoration: none;
+    color: gray;
+}
+/* __________SearchPage Body */
+
+
+.searchPage-results{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.searchPage-resultCount{
+   font-size: 1rem;
+   color:grey;
+   
+
+}
+.searchPage-result{
+  margin: 6px 0px;
+ border-bottom: 1px solid rgb(143, 142, 142);
+ 
+}
+.searchPage-result  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space;
+    margin: 0;
+    padding: 0;
+    /* flex-wrap: wrap; */
+    /* width: 50vw; */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+ 
+}
+.searchPage-result  a > span{
+    text-decoration: underline;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* text-align: justify; */
+   
+ 
+}
+.searchPage-result  a > p,h5{
+  margin: 3px 0px;
+}
+.searchPage-result  div > p{
+  margin: 3px 0px;
+}
+.searchPage-results img{
+    height:90px;
+
+}
+hr{
+    height:.5px;
+    /* color: red; */
+    background-color: rgb(173, 171, 171);
+    width: 50vw;
+align-self: flex-start;
+}
